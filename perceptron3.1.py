@@ -1,15 +1,19 @@
 #!/usr/bin/env python3
 # -*- coding: utf-8 -*-
 """
-Created on Sun Jul 21 17:06:49 2019
+Created on Sun Jul 21 17:52:13 2019
 
 @author: augustocbx
 """
 
+
 import numpy as np
 
+#entradas = np.array([[0,0], [0,1], [1, 0], [1, 1]])
+#saidas = np.array([0, 0, 0, 1])
 entradas = np.array([[0,0], [0,1], [1, 0], [1, 1]])
-saidas = np.array([0, 0, 0, 1])
+saidas = np.array([0, 1, 1, 1])
+
 pesos = np.array([0.0, 0.0])
 taxaAprendizagem = 0.1
 
